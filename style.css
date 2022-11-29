@@ -14,20 +14,18 @@
   position: relative; */
 
   /* background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHQlMjBza3l8ZW58MHx8MHx8&w=1000&q=80'); */
-  /* height: 100vh;
-  width: 100%; */
-  display: none;
   /* padding-top: 10px; */
   /* color: none; */
   font-size: 20px;
   text-align: center;
+  background-color: black;
 
 }
 
 
 nav{
   /* display: flex; */
-  padding: 2% 6%;
+  padding: 0% 0%;
   justify-content: space-between;
   align-items: center;
 }
