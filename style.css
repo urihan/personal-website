@@ -1,26 +1,38 @@
 *{
   margin : 0;
   padding : 0;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: "Audiowide", sans-serif; */
+  font-family: 'Bungee', cursive;
 }
+
 .header{
-  min-height: 100vh;
-  width: 100%;
-  background: url(images2/img.jpg);
-  background-image: linear-gradient(rgba(0,0,100,1), rgba(100, 0, 0, 0.5));
-  background-position: center;
+  /* background-image: url('images/sky2copy.png'); */
+  /* background-image: linear-gradient(rgba(0,0,50,1), rgba(100, 0, 0, 0.5)); */
+  /* background-position: center;
   background-size: cover;
-  position: relative;
+  position: relative; */
+
+  /* background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHQlMjBza3l8ZW58MHx8MHx8&w=1000&q=80'); */
+  /* height: 100vh;
+  width: 100%; */
+  display: none;
+  /* padding-top: 10px; */
+  /* color: none; */
+  font-size: 20px;
+  text-align: center;
 
 }
+
+
 nav{
-  display: flex;
+  /* display: flex; */
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
 }
 nav img{
-  width: 150px;
+  /* width: 150px; */
 
 }
 
@@ -55,6 +67,7 @@ nav img{
   width: 100%;
 
 }
+
 
 .text-box{
   width: 90%;
