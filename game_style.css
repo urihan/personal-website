@@ -64,6 +64,7 @@ nav img{
 /* text on the left */
 .text-box{
   font-family: 'Bungee', cursive;
+  /* font-family: monospace; */
   width: 70%;
   color: #ffff;
   position: absolute;
@@ -76,31 +77,6 @@ nav img{
 .text-box h1{
   font-size: 50px;
 }
-
-.text-box2{
-  font-family: 'Gloria Hallelujah', cursive;
-  width: 70%;
-  color: #ffff;
-  position: absolute;
-  top: 45%;
-  left: 41%;
-  transform: translate(-50%,-50%);
-  text-align:left;
-}
-.text-box2 h2{
-  font-size: 50px;
-}
-
-.img{
-  width: 250px;
-  height: auto;
-}
-
-/* body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-} */
 
 h1 {
   font-family: monospace;
@@ -121,4 +97,30 @@ h1 {
   530% {
     border-color: transparent;
   }
+}
+
+
+/* message in p(paragraph) */
+.text-box2{
+  /* font-family: 'Gloria Hallelujah', cursive; */
+  font-family: monospace;
+  width: 65%;
+  color: #ffff;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  text-align:left;
+}
+.text-box2 h2{
+  font-size: 50px;
+}
+
+.container{
+  /* width: 250px; */
+  width: 70px;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 70%;
 }
