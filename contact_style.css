@@ -55,4 +55,34 @@
     width: 100%;
   
   }
+
+  /* Title - About me and a blink */
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+  color: #ffff;
+  position: absolute;
+  top: 10%;
+  left: 6%;
+  text-align: left;
+
+  border-right: 4px solid;
+  width: 10ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(10), blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  530% {
+    border-color: transparent;
+  }
+}
+
   
