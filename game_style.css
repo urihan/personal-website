@@ -100,7 +100,7 @@ h1 {
   width: 65%;
   color: #ffff;
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 40%;
   transform: translate(-50%,-50%);
   text-align:left;
@@ -124,6 +124,16 @@ h1 {
   background:#fdf3aa;
   top: 20%;
   left: 40%;
+}
+
+/* icons */
+.icon1{
+  width: 50px;
+  height: auto;
+  filter: invert(100%);
+  position: absolute;
+  top: 70%; 
+  left: 10%; 
 }
 
 
