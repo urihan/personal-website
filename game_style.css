@@ -128,13 +128,57 @@ h1 {
 
 /* icons */
 .icon1{
-  width: 50px;
-  height: auto;
+  width: auto;
+  height: 5px;
   filter: invert(100%);
   position: absolute;
   top: 70%; 
   left: 10%; 
 }
+
+.icon2{
+  width: auto;
+  height: 5px;
+  filter: invert(100%);
+  position: absolute;
+  top: 70%; 
+  left: 22%; 
+}
+
+.icon3{
+  width: auto;
+  height: 3px;
+  filter: invert(100%);
+  position: absolute;
+  top: 70%; 
+  left: 35%; 
+}
+
+.icon4{
+  width: auto;
+  height: 5px;
+  filter: invert(100%);
+  top: 70%; 
+  left: 35%; 
+}
+
+.icon4{
+  width: auto;
+  height: 5;
+  filter: invert(100%);
+  position: absolute;
+  top: 70%; 
+  left: 60%; 
+}
+
+/* .icon5{
+  width: auto;
+  height: 5;
+  filter: invert(100%);
+  position: absolute;
+  top: 80%; 
+  left: 60%; 
+} */
 
 
 
