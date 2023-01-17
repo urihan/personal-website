@@ -3,7 +3,7 @@
 var dAmt = 100;
 
 function setup() {
-  createCanvas(1950, 2000);
+  createCanvas(1440, 2000);
   background(0);
   noStroke();
 

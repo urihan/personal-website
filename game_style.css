@@ -100,7 +100,7 @@ h1 {
   width: 65%;
   color: #ffff;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 40%;
   transform: translate(-50%,-50%);
   text-align:left;
@@ -156,20 +156,20 @@ h1 {
 
 .icon4{
   width: auto;
-  height: 5px;
+  height: 1px;
   filter: invert(100%);
   top: 70%; 
-  left: 35%; 
+  left: 40%; 
 }
 
-.icon4{
+/* .icon5{
   width: auto;
-  height: 5;
+  height: 1;
   filter: invert(100%);
   position: absolute;
   top: 70%; 
   left: 60%; 
-}
+} */
 
 /* .icon5{
   width: auto;
@@ -257,4 +257,20 @@ body {
   100% {
     top: 0;
   }
+}
+
+/* message in p(paragraph) */
+.text-box3{
+  /* font-family: 'Gloria Hallelujah', cursive; */
+  font-family: monospace;
+  width: 65%;
+  color: #ffff;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  text-align:left;
+}
+.text-box3 h2{
+  font-size: 50px;
 }
